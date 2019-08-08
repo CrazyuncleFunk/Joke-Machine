@@ -80,3 +80,32 @@ float:left;
   margin-right:5vh;
   margin-top:5vh;
 }
+#float-bar{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width:100vw;
+}
+#float-bar:hover{
+  color:white;
+}
+.bar{
+  text-decoration: none;
+  color:black;
+}
+ul{
+  display:flex;
+  text-decoration: none;
+  margin-right:35px;
+}
+li{
+  font-size:2em;
+  padding: 10px;
+  list-style: none;
+}
+.bar:hover{
+  color:grey;
+}
